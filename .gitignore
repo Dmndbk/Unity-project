@@ -10,7 +10,13 @@
 /[Ll]ogs/
 /[Uu]ser[Ss]ettings/
 /[Aa]ssets/Heureka/
+/[Ss]creenshots/
+/[Rr]ecordings/
 Assets/Heureka.meta
+/[Aa]ssets/[Ll]udiq/
+/[Aa]ssets/[Ll]udiq.meta
+/[Aa]ssets/[Ll]udiq.Generated/
+/[Aa]ssets/[Ll]udiq.Generated.meta
 # MemoryCaptures can get excessive in size.
 # They also could contain extremely sensitive data
 /[Mm]emoryCaptures/
@@ -29,6 +35,7 @@ Assets/Heureka.meta
 
 # Rider
 .idea/
+ProjectSettings/RiderScriptEditorPersistedState.asset
 
 # Gradle cache directory
 .gradle/
@@ -63,8 +70,13 @@ sysinfo.txt
 *.apk
 *.unitypackage
 
+# Mac OS files
+**/.DS_Store
+
 # Crashlytics generated file
 crashlytics-build.properties
+/mono_crash*
+/bakery_times*
 
 # Packed Addressables
 /[Aa]ssets/[Aa]ddressable[Aa]ssets[Dd]ata/*/*.bin*
@@ -79,3 +91,4 @@ Assets/Temp/*
 Assets/StreamingAssets/PerformanceTestRunInfo.json*
 Assets/InitTestScene*.unity*
 Assets/Heureka.meta
+SerializedBuildInfo/*
